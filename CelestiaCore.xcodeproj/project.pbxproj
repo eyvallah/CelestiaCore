@@ -338,7 +338,6 @@
 		9751DC1723594A8000299997 /* celx_observer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBD823594A5300299997 /* celx_observer.h */; };
 		9751DC1823594A8000299997 /* celx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBD923594A5300299997 /* celx.cpp */; };
 		9751DC1923594A8000299997 /* celx_celestia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBDA23594A5300299997 /* celx_celestia.cpp */; };
-		9751DC1A23594A8000299997 /* celx_gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBDB23594A5300299997 /* celx_gl.h */; };
 		9751DC1B23594A8000299997 /* celx_category.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBDC23594A5300299997 /* celx_category.cpp */; };
 		9751DC1C23594A8000299997 /* celx_object.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBDD23594A5300299997 /* celx_object.h */; };
 		9751DC1D23594A8000299997 /* celx_phase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBDE23594A5300299997 /* celx_phase.h */; };
@@ -347,7 +346,6 @@
 		9751DC2023594A8000299997 /* celx_rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBE123594A5300299997 /* celx_rotation.cpp */; };
 		9751DC2123594A8000299997 /* celx_misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBE223594A5300299997 /* celx_misc.h */; };
 		9751DC2223594A8000299997 /* celx_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBE323594A5300299997 /* celx_vector.cpp */; };
-		9751DC2323594A8000299997 /* celx_gl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBE423594A5300299997 /* celx_gl.cpp */; };
 		9751DC2423594A8000299997 /* celx_category.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBE523594A5300299997 /* celx_category.h */; };
 		9751DC2523594A8000299997 /* celx_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9751DBE623594A5300299997 /* celx_frame.cpp */; };
 		9751DC2623594A8000299997 /* celx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751DBE723594A5300299997 /* celx.h */; };
@@ -392,7 +390,6 @@
 		97E34AEF2431ED09009E67C3 /* glsupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E34AED2431ED08009E67C3 /* glsupport.cpp */; };
 		97EB7FFC242C6EC800A1BEC8 /* cspice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FF8242C6EB800A1BEC8 /* cspice.a */; };
 		97EB7FFD242C6EC800A1BEC8 /* libfmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FF6242C6EB800A1BEC8 /* libfmt.a */; };
-		97EB7FFE242C6EC800A1BEC8 /* libGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FF4242C6EB700A1BEC8 /* libGL.a */; };
 		97EB7FFF242C6EC800A1BEC8 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FF9242C6EB800A1BEC8 /* libintl.a */; };
 		97EB8000242C6EC800A1BEC8 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FFA242C6EB800A1BEC8 /* libjpeg.a */; };
 		97EB8001242C6EC800A1BEC8 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB7FF5242C6EB700A1BEC8 /* liblua.a */; };
@@ -537,7 +534,6 @@
 		9751DBD823594A5300299997 /* celx_observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_observer.h; sourceTree = "<group>"; };
 		9751DBD923594A5300299997 /* celx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx.cpp; sourceTree = "<group>"; };
 		9751DBDA23594A5300299997 /* celx_celestia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_celestia.cpp; sourceTree = "<group>"; };
-		9751DBDB23594A5300299997 /* celx_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_gl.h; sourceTree = "<group>"; };
 		9751DBDC23594A5300299997 /* celx_category.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_category.cpp; sourceTree = "<group>"; };
 		9751DBDD23594A5300299997 /* celx_object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_object.h; sourceTree = "<group>"; };
 		9751DBDE23594A5300299997 /* celx_phase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_phase.h; sourceTree = "<group>"; };
@@ -546,7 +542,6 @@
 		9751DBE123594A5300299997 /* celx_rotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_rotation.cpp; sourceTree = "<group>"; };
 		9751DBE223594A5300299997 /* celx_misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_misc.h; sourceTree = "<group>"; };
 		9751DBE323594A5300299997 /* celx_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_vector.cpp; sourceTree = "<group>"; };
-		9751DBE423594A5300299997 /* celx_gl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_gl.cpp; sourceTree = "<group>"; };
 		9751DBE523594A5300299997 /* celx_category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx_category.h; sourceTree = "<group>"; };
 		9751DBE623594A5300299997 /* celx_frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = celx_frame.cpp; sourceTree = "<group>"; };
 		9751DBE723594A5300299997 /* celx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celx.h; sourceTree = "<group>"; };
@@ -880,7 +875,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97EB8001242C6EC800A1BEC8 /* liblua.a in Frameworks */,
-				97EB7FFE242C6EC800A1BEC8 /* libGL.a in Frameworks */,
 				97EB7FFC242C6EC800A1BEC8 /* cspice.a in Frameworks */,
 				97EB8003242C6EC800A1BEC8 /* libpng16.a in Frameworks */,
 				97EB7FFF242C6EC800A1BEC8 /* libintl.a in Frameworks */,
@@ -1079,7 +1073,6 @@
 				9751DBD823594A5300299997 /* celx_observer.h */,
 				9751DBD923594A5300299997 /* celx.cpp */,
 				9751DBDA23594A5300299997 /* celx_celestia.cpp */,
-				9751DBDB23594A5300299997 /* celx_gl.h */,
 				9751DBDC23594A5300299997 /* celx_category.cpp */,
 				9751DBDD23594A5300299997 /* celx_object.h */,
 				9751DBDE23594A5300299997 /* celx_phase.h */,
@@ -1088,7 +1081,6 @@
 				9751DBE123594A5300299997 /* celx_rotation.cpp */,
 				9751DBE223594A5300299997 /* celx_misc.h */,
 				9751DBE323594A5300299997 /* celx_vector.cpp */,
-				9751DBE423594A5300299997 /* celx_gl.cpp */,
 				9751DBE523594A5300299997 /* celx_category.h */,
 				9751DBE623594A5300299997 /* celx_frame.cpp */,
 				9751DBE723594A5300299997 /* celx.h */,
@@ -1582,7 +1574,6 @@
 				971A66F823019C21009E4EA1 /* surface.h in Headers */,
 				971A66B823019C20009E4EA1 /* location.h in Headers */,
 				971A663F23019C03009E4EA1 /* url.h in Headers */,
-				9751DC1A23594A8000299997 /* celx_gl.h in Headers */,
 				974D27452303C3BE00FDFBC0 /* CelestiaOrbit+Private.h in Headers */,
 				971A66EB23019C21009E4EA1 /* star.h in Headers */,
 				971A66F323019C21009E4EA1 /* starname.h in Headers */,
@@ -1882,7 +1873,6 @@
 				971A667D23019C20009E4EA1 /* asterism.cpp in Sources */,
 				971A660C23019BFC009E4EA1 /* material.cpp in Sources */,
 				971A65E023019BF0009E4EA1 /* CelestiaAppCore.mm in Sources */,
-				9751DC2323594A8000299997 /* celx_gl.cpp in Sources */,
 				971A670723019C21009E4EA1 /* universe.cpp in Sources */,
 				97B5E2D5239689B9006F35B4 /* pointstarvertexbuffer.cpp in Sources */,
 				971A65EF23019BF0009E4EA1 /* CelestiaVector.mm in Sources */,
@@ -2002,30 +1992,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=appletvos*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=appletvsimulator*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = celx_gl.cpp;
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"${inherited}",
 					ENABLE_NLS,
 					USE_SPICE,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvos*]" = (
-					"${inherited}",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvsimulator*]" = (
-					"${inherited}",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphoneos*]" = (
-					"${inherited}",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
 					GL_ES,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -2057,7 +2028,7 @@
 					"${LIB_PATH}/include/libpng",
 					"${LIB_PATH}/include/cspice",
 					"${LIB_PATH}/include/freetype/freetype2",
-					"${LIB_PATH}/include/libepoxy",
+					"${LIB_PATH}/include/angle",
 				);
 				VALID_ARCHS = "x86_64 arm64 arm64e";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2076,30 +2047,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=appletvos*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=appletvsimulator*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = celx_gl.cpp;
-				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = celx_gl.cpp;
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"${inherited}",
 					ENABLE_NLS,
 					USE_SPICE,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvos*]" = (
-					"${inherited}",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=appletvsimulator*]" = (
-					"${inherited}",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					GL_ES,
-				);
-				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
 					GL_ES,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -2131,7 +2083,7 @@
 					"${LIB_PATH}/include/libpng",
 					"${LIB_PATH}/include/cspice",
 					"${LIB_PATH}/include/freetype/freetype2",
-					"${LIB_PATH}/include/libepoxy",
+					"${LIB_PATH}/include/angle",
 				);
 				VALID_ARCHS = "x86_64 arm64 arm64e";
 				VERSIONING_SYSTEM = "apple-generic";
